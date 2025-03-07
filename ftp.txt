@@ -1,0 +1,27 @@
+FTP güvenli mi?
+
+FTP verileri şifrelemeden (plaintext) iletir, bu yüzden güvenli değildir.
+Daha güvenli alternatif: SFTP (Secure File Transfer Protocol)
+ICMP nedir?
+
+Internet Control Message Protocol, ağ cihazlarının hata mesajları göndermesini sağlar.
+Ping, Traceroute gibi ağ teşhis araçları ICMP kullanır.
+Güvenlik riskleri: ICMP flood, Smurf Attack, Ping of Death
+vsftpd 3.0.3 nedir?
+
+vsftpd (Very Secure FTP Daemon), güvenli ve hızlı bir Linux FTP sunucusudur.
+SSL/TLS desteği vardır (FTPS), ancak standart FTP şifreleme yapmaz.
+CVE-2021-3618 gibi güvenlik açıkları bulunabilir.
+FTP istemcisinde yardım menüsünü nasıl açarız?
+
+Komut: ftp --help veya FTP içine girip help yazmak.
+Daha detaylı dokümantasyon için: man ftp
+FTP sunucusuna nasıl bağlanırız?
+
+Terminalden: ftp <IP_ADRESİ>
+GUI kullanmak istersen: FileZilla veya WinSCP
+Netcat ile test etmek için: nc -nv <IP> 21
+FTP sunucusundan nasıl dosya indiririz?
+
+Tek bir dosya: get dosya.txt
+Birden fazla dosya: mget *.txt
