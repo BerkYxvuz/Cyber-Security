@@ -1,0 +1,22 @@
+SMB (Server Message Block) Nedir?
+SMB (Server Message Block), ağ üzerinden dosya ve yazıcı paylaşımı yapmaya yarayan bir protokoldür. Windows, Linux ve macOS sistemlerinde kullanılabilir.
+
+SMB'nin Temel Kullanım Alanları:
+Dosya Paylaşımı: Ağdaki cihazlar arasında dosya alışverişi yapılmasını sağlar.
+Yazıcı Paylaşımı: Bir yazıcının birden fazla kullanıcı tarafından kullanılmasını sağlar.
+Ağ Üzerinden Erişim: Kullanıcılar, ağ üzerindeki paylaşılan klasörlere ve cihazlara erişebilir.
+SMB'nin Çalışma Yapısı:
+İstemci-Sunucu Modeli:
+
+SMB İstemcisi, dosya veya yazıcı paylaşımına erişmek isteyen cihazdır.
+SMB Sunucusu, istemcinin bağlanıp dosya alabileceği sistemdir.
+Kullanılan Portlar:
+
+TCP 445: Modern SMB bağlantıları için kullanılır.
+TCP 139: Eski NetBIOS üzerinden çalışan SMB sürümleri için kullanılır.
+
+Not:
+SMB Güvenlik Riskleri:
+SMBv1 kullanılmamalı (WannaCry, EternalBlue gibi saldırılar bu açığı kullanmıştır).
+Güçlü şifreler ve izinler ayarlanmalı.
+Açık gerekmiyorsa TCP 445 portu kapatılmalı.
