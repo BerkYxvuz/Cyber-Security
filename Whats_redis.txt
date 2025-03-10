@@ -1,0 +1,22 @@
+Redis Nedir?
+
+Redis (Remote Dictionary Server), açık kaynak kodlu, 
+bellek tabanlı (in-memory) bir key-value (anahtar-değer) veri tabanıdır. 
+Yüksek performanslı bir önbellekleme mekanizması ve NoSQL veritabanı olarak kullanılır.
+
+Redis'e bağlanmak için gerekenler:
+
+Utility	Description
+crdb-cli (manage Active-Active) - Manage Active-Active databases.
+redis-cli (run Redis commands)	-  Run Redis commands.
+
+Ana bilgisayar adını belirtmek için Redis komut satırı yardımcı programı ile hangi bayrak kullanılır?
+
+redis-cli -h <hostname>
+redis-cli -h 192.168.1.100
+
+cheatsheet: https://redis.io/learn/howtos/quick-start/cheat-sheet
+
+Database seçme kodu:
+
+SELECT <database_number>

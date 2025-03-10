@@ -1,0 +1,39 @@
+Bir internet sitesine giderken yaşananlar için özet;
+
+Evdeki modemin bir kutu olduğunu düşün içerisinde bağlı cihazlar var,
+
+Modem de bulunan cihazlar birbiriyle tanışırken şu yaşanmakta,
+İletişim kurmak isteyen cihaz B cihazına seslenir,
+B cihazı ben buradayım işte B der.
+Fakat burada herhangi bir cihazda kalkıp kendisinin "B" olduğunu iddia edebilir.
+Çünkü bu esnada herhangi bir doğrulama benzeri durum söz konusu değildir.
+
+Aradığımız site modem içerisinde olmadığından 
+Router (iki ağ arasında güvenli bir şekilde veri aktarımı sağlamak için kullanılan donanımsal cihazlardır) 
+
+bu siteyi aramak için DNS'e gider
+örn 8.8.8.8 (Google)
+
+Burada Port 53 sözlüğümüze giriş yapıyor.
+
+Port 53, sorgu ve yanıt alışverişi yoluyla DNS iletişimi için bir ağ geçidi görevi görür. 
+Hem UDP hem de TCP kullanarak, 
+etki alanı adlarını ve güvenli bölge transferlerini çözümleme gibi temel DNS işlemlerini sağlar. 
+Rolü, İnternet işlevselliği ve güvenliği için temeldir.
+
+8.8.8.8 e bu yol ile x.com'un ip sini sordu.
+
+Eğer ip si 8.8.8.8 (Resolver DNS) de değilse
+
+Route DNS'e gidip aynı soruyu tekrar sorar.
+
+Eğer o'da bilmiyorsa TLD'ye gidilir
+
+TLD'ler, 
+DNS hiyerarşisindeki en yüksek düzeydir ve kuruluş türünü veya bir etki alanının (*.com) amacını belirlemek için kullanılır.
+
+TLD bizi x.com un kayıtlarını tutan Authoritative Name Server yönlendirir
+domainin A kaydını (IPv4) veya AAAA kaydını (IPv6) vererek hangi IP'ye yönlendirdiğini söyler.
+
+Artık bilgisayarımız ip'yi öğrendi!
+
