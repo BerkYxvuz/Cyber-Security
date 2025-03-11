@@ -37,3 +37,5 @@ domainin A kaydını (IPv4) veya AAAA kaydını (IPv6) vererek hangi IP'ye yönl
 
 Artık bilgisayarımız ip'yi öğrendi!
 
+Ve sonuç başarılı işlediği için bu ip'yi artık 8.8.8.8 de öğrendi
+yani bu demektirki bir başkası bu ip yi aradığında bu kadar yol gitmeyecek :)

